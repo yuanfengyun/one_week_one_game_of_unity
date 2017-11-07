@@ -1,9 +1,12 @@
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/Assets/AssetStoreTools*
+pc/
+android/
+
+flappy_bird/Library/
+flappy_bird/Temp/
+flappy_bird/Obj/
+flappy_bird/Build/
+flappy_bird/Builds/
+flappy_bird/Assets/AssetStoreTools*
 
 # Visual Studio 2015 cache directory
 /.vs/
