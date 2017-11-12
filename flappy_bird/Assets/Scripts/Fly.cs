@@ -14,6 +14,10 @@ public class Fly : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        if (Control.state != "play")
+        {
+            return;
+        }
         interval += Time.deltaTime;
         if (interval > max)
         {

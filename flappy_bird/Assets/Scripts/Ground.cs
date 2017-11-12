@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class Ground : MonoBehaviour {
-    public float speed = 1.0f;
+    public float speed = 3.0f;
     public float left = -0.46f;
     public float right = 0.74f;
 
@@ -13,6 +13,10 @@ public class Ground : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        if (Control.state != "play")
+        {
+            return;
+        }
         this.transform.Translate(Vector3.left * speed * Time.deltaTime);
         if(this.transform.position.x < left)
         {
