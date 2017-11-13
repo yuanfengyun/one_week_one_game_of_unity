@@ -8,6 +8,13 @@ flappy_bird/Build/
 flappy_bird/Builds/
 flappy_bird/Assets/AssetStoreTools*
 
+ddz/Library/
+ddz/Temp/
+ddz/Obj/
+ddz/Build/
+ddz/Builds/
+ddz/Assets/AssetStoreTools*
+
 # Visual Studio 2015 cache directory
 /.vs/
 
